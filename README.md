@@ -1,2 +1,2 @@
 # justjava
-Creating the Udacity JustJava app
+Creating and modifying the Udacity JustJava app.
