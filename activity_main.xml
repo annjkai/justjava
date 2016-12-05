@@ -21,42 +21,58 @@
             android:id="@+id/your_name"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginBottom="24dp"
             android:hint="@string/name"
             android:inputType="textCapWords"
             android:textColorHighlight="#e91e63" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/toppings"
-            android:textAllCaps="true" />
+            style="@style/InfoTextStyle"
+            android:text="@string/coffee_of_the_day" />
+
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/toppings" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:paddingLeft="24dp"
-            android:text="@string/whipped_cream"
-            android:textSize="16sp" />
+            style="@style/CheckBoxTextStyle"
+            android:text="@string/whipped_cream" />
 
         <CheckBox
             android:id="@+id/chocolate_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CheckBoxTextStyle"
+            android:text="@string/chocolate" />
+
+        <CheckBox
+            android:id="@+id/caramel_topping_checkbox"
+            style="@style/CheckBoxTextStyle"
             android:layout_marginBottom="16dp"
-            android:paddingLeft="24dp"
-            android:text="@string/chocolate"
-            android:textSize="16sp" />
+            android:text="@string/caramel_topping" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
+            android:text="@string/flavor_shot" />
+
+        <CheckBox
+            android:id="@+id/vanilla_checkbox"
+            style="@style/CheckBoxTextStyle"
+            android:text="@string/vanilla" />
+
+        <CheckBox
+            android:id="@+id/caramel_checkbox"
+            style="@style/CheckBoxTextStyle"
+            android:text="@string/caramel" />
+
+        <CheckBox
+            android:id="@+id/hazelnut_checkbox"
+            style="@style/CheckBoxTextStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/quantity"
-            android:textAllCaps="true" />
+            android:text="@string/hazelnut" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/quantity" />
 
 
         <LinearLayout
