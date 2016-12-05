@@ -7,12 +7,22 @@
     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
     <string name="name">Name</string>
 
+    <!-- Text describing the coffee [NO CHAR LIMIT] -->
+    <string name="coffee_of_the_day">Each drink is prepared with fresh house coffee</string>
+
     <!-- Topping selection [CHAR LIMIT=12] -->
     <string name="toppings">Toppings</string>
     <string name="whipped_cream">Whipped cream</string>
     <string name="chocolate">Chocolate</string>
+    <string name="caramel_topping">Caramel</string>
 
-    <!-- QUantity picker [CHAR LIMIT=20] -->
+    <!-- Flavor shot selection [CHAR LIMIT=12] -->
+    <string name="flavor_shot">Flavor shot</string>
+    <string name="vanilla">Vanilla syrup</string>
+    <string name="caramel">Caramel syrup</string>
+    <string name="hazelnut">Hazelnut syrup</string>
+
+    <!-- Quantity picker [CHAR LIMIT=20] -->
     <string name="quantity">Quantity</string>
     <string name="initial_quantity_value">1</string>
 
@@ -23,13 +33,21 @@
     -->
     <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
 
-    <!-- Whipped cream topping for the order summary. It will be shown in the format of "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    <!-- Toppings for the order summary. They will be shown in the format of "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
     -->
     <string name="order_summary_whipped_cream">Add whipped cream? <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
-
-    <!-- Chocolate topping for the order summary. It will be shown in the format of
-      "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE] -->
     <string name="order_summary_chocolate">Add chocolate? <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+    <string name="order_summary_caramel">Add caramel? <xliff:g example="true" id="addCaramel">%b</xliff:g></string>
+
+    <!-- Shots for the order summary. They will be shown in the format of "Add vanilla syrup? true" or "Add vanilla syrup? false". [CHAR LIMIT=NONE]
+   -->
+    <string name="order_summary_vanilla_shot">Add vanilla syrup? <xliff:g example="true" id="addVanillaShot">%b</xliff:g></string>
+    <string name="order_summary_caramel_shot">Add caramel syrup? <xliff:g example="true" id="addCaramelShot">%b</xliff:g></string>
+    <string name="order_summary_hazelnut_shot">Add hazelnut syrup? <xliff:g example="true" id="addHazelnutShot">%b</xliff:g></string>
+
+
+
+
 
     <!-- Quantity of coffee cups for the order summary. It will be shown in the format of
       "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE] -->
