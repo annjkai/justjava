@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     /**
      * This method is called when the plus button is clicked.
      */
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         quantity = quantity - 1;
         displayQuantity(quantity);
     }
+
     /**
      * This method is called when the order button is clicked.
      */
@@ -102,17 +104,18 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
-        /**
-         * This method calls the price.
-         *
-         * @param addWhippedCream adds whip topping
-         * @param addChocolate    adds choc topping
-         * @param addCaramel  adds caramel topping
-         * @param addVanillaShot     adds vanilla shot
-         * @param addCaramelShot      adds caramel shot
-         * @param addHazelnutShot    adds hazelnut shot
-         * @return total price
-         */
+
+    /**
+     * This method calls the price.
+     *
+     * @param addWhippedCream adds whip topping
+     * @param addChocolate    adds choc topping
+     * @param addCaramel      adds caramel topping
+     * @param addVanillaShot  adds vanilla shot
+     * @param addCaramelShot  adds caramel shot
+     * @param addHazelnutShot adds hazelnut shot
+     * @return total price
+     */
     private int calculatePrice(boolean addWhippedCream, boolean addChocolate, boolean addCaramel,
                                boolean addVanillaShot, boolean addCaramelShot, boolean addHazelnutShot) {
         //Calculates the basic price for coffee
@@ -157,8 +160,12 @@ public class MainActivity extends AppCompatActivity {
      * This method provides an order summary.
      *
      * @param price           of the order
-     * @param addWhippedCream is whether user wants whipped cream or not
-     * @param addChocolate    is whether the user wants chocolate or not
+     * @param addWhippedCream is whether user wants a whipped cream topping or not
+     * @param addChocolate    is whether the user wants a chocolate topping or not
+     * @param addCaramel      is whether the user wants a caramel topping or not
+     * @param addVanillaShot  is whether the user wants a vanilla shot or not
+     * @param addCaramelShot  is whether the user wants a caramel shot or not
+     * @param addHazelnutShot is whether the user wants a hazelnut shot or not
      * @return text summary
      */
     private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate, boolean addCaramel,

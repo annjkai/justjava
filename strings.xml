@@ -1,5 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App title [CHAR LIMIT=12] -->
     <string name="app_name">Just Java</string>
@@ -44,9 +43,6 @@
     <string name="order_summary_vanilla_shot">Add vanilla syrup? <xliff:g example="true" id="addVanillaShot">%b</xliff:g></string>
     <string name="order_summary_caramel_shot">Add caramel syrup? <xliff:g example="true" id="addCaramelShot">%b</xliff:g></string>
     <string name="order_summary_hazelnut_shot">Add hazelnut syrup? <xliff:g example="true" id="addHazelnutShot">%b</xliff:g></string>
-
-
-
 
 
     <!-- Quantity of coffee cups for the order summary. It will be shown in the format of
